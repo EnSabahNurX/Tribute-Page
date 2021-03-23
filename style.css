@@ -5,6 +5,8 @@ body {
 h1 {
   font-size: 35px;
   text-align: center;
+  color: brown;
+  box-shadow: -3px 5px 1px rgb(95, 95, 95);
 }
 
 img {
@@ -13,6 +15,7 @@ img {
   padding: 15px;
   display: block;
   margin: 3% auto;
+  border-radius: 50px;
 }
 
 p {
@@ -23,4 +26,22 @@ p {
 #img-div {
   text-align: center;
   background-color: white;
+}
+
+section li, h3{
+  margin-left: 300px;
+  margin-right: 300px;
+  color: rgb(0, 0, 0);
+}
+
+li {
+  letter-spacing: 2px;
+  margin: 15px;
+}
+
+section cite {
+  display: block;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: rgb(0, 0, 0);
 }
